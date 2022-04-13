@@ -1,14 +1,44 @@
-body {
-    color: #2a2a6b;
+:root {
+    --primary-font-color: #212121;
+    --primary-backgroudg-color: #2F303A;
+    --primary-accent-color: #2196F3;
+    --secondary-background-color: #E5E5E5;
+    --secondary-font-color: #757575;
+    --third-backgroud-color: #F5F4FA;
 }
 
 
-.schedule-body > tr:hover {
-    background-color: rgb(255, 0, 0);
-    color: white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Футер */
+.footer {
+    background-color: #2F303A;
 }
 
-.text {
-    background-color: rgba(255,0,0,0.1);
-    color: rgb(102, 51, 153);
+.address {
+    color: #FFFFFF;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
 }
