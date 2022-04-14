@@ -73,17 +73,9 @@ ul {
     text-decoration: none;
 }
 
-.link-nav:hover {
-    color: var(--accent-color);
-}
-
-.link-nav:focus {
-    color: var(--accent-color);
-}
-
 /* feedback */
 
-.feedback {
+.feedback-top {
     color: var(--secondary-font-color);
 
     font-family: Roboto, sans-serif;   
@@ -94,11 +86,9 @@ ul {
     text-decoration: none;
 }
 
-.feedback:hover {
-    color: var(--accent-color);
-}
-
-.feedback:focus {
+.feedback-top:hover, .feedback-top:focus,
+.feedback:hover, .feedback:focus,
+.link-nav:hover, .link-nav:focus {
     color: var(--accent-color);
 }
 
@@ -240,6 +230,10 @@ ul {
 .feedback {
     color: rgba(255, 255, 255, 0.6);
     font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
     font-style: normal;
 }
-
